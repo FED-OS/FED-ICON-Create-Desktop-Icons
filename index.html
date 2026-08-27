@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Iconverse — The epic curated hub for app & desktop icons: resources, guidelines, tools, palettes, and endless inspiration." />
+    <title>🎯 Iconverse — The Epic Icon Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800;14..32,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>" />
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+
+    <!-- ═══ FORK ME BANNER ═══ -->
+    <a href="#" class="fork-banner" target="_blank" rel="noopener">Fork me on GitHub</a>
+
+    <!-- ═══ STICKY NAVBAR ═══ -->
+    <nav class="navbar">
+        <div class="navbar-inner">
+            <a href="#top" class="navbar-brand">
+                <span class="brand-emoji">🎯</span> Iconverse
+            </a>
+            <div class="navbar-links">
+                <a href="#sets">Icon Sets</a>
+                <a href="#platforms">Platforms</a>
+                <a href="#specs">Sizes &amp; Formats</a>
+                <a href="#colors">Colors</a>
+                <a href="#tools">Tools</a>
+                <a href="#principles">Principles</a>
+                <a href="#a11y">Accessibility</a>
+                <a href="#licenses">Licensing</a>
+                <a href="#community">Community</a>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <span id="themeIcon">☀️</span> <span id="themeLabel">Light</span>
+                </button>
+                <a href="#" class="github-cta" target="_blank" rel="noopener">⭐ Star</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" id="top">
+
+        <!-- ═══ HERO ═══ -->
+        <header class="hero reveal">
+            <div class="logo">🎯</div>
+            <h1>Iconverse</h1>
+            <p class="lead">
+                The epic curated hub for app &amp; desktop icons — resources, guidelines,
+                tools, palettes, and endless inspiration for every build.
+            </p>
+            <div class="sub">
+                <span>📱 500+ icon sets</span>
+                <span>🖥️ 6 platforms</span>
+                <span>⚡ 36+ free tools</span>
+                <span>🎨 6 palettes</span>
+                <span>♿ a11y ready</span>
+            </div>
+            <div class="scroll-hint">↓ scroll to explore ↓</div>
+        </header>
+
+        <!-- ═══ STATS ═══ -->
+        <div class="stats reveal">
+            <div class="stat"><span class="num">2,400+</span><span class="label">icons indexed</span></div>
+            <div class="stat"><span class="num">180+</span><span class="label">icon sets</span></div>
+            <div class="stat"><span class="num">36</span><span class="label">free generators</span></div>
+            <div class="stat"><span class="num">12</span><span class="label">design guides</span></div>
+            <div class="stat"><span class="num">6</span><span class="label">color palettes</span></div>
+        </div>
+
+        <!-- ═══ ICON SETS (with search) ═══ -->
+        <h2 id="sets" class="reveal">✨ Icon Sets <span class="badge">curated</span></h2>
+        <div class="search-wrap reveal">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="iconSearch" class="search-input" placeholder="Search icon sets by name, tag, or license (e.g. 'brand', 'MIT', 'mobile')…" aria-label="Search icon sets" />
+        </div>
+        <div class="grid" id="iconSets">
+
+            <div class="card reveal">
+                <div class="icon">🪶</div>
+                <h3>Feather Icons</h3>
+                <p>Simply beautiful open-source icons. 300+ minimal SVG icons.</p>
+                <div class="tags"><span>MIT</span><span>SVG</span><span>24×24</span><span>minimal</span></div>
+                <a class="link" href="https://feathericons.com" target="_blank" rel="noopener">feathericons.com</a>
+            </div>
+
+            <div class="card reveal">
+                <div class="icon">🔵</div>
+                <h3>Font Awesome</h3>
+                <p>The world's most popular icon library. Free &amp; pro versions.</p>
+                <div class="tags"><span>free</span><span>pro</span><span>web</span><span>brands</span></div>
+                <a class="link" href="https://fontawesome.com" target="_blank" rel="noopener">fontawesome.com</a>
+            </div>
+
+            <div class="card reveal">
+                <div class="icon">🟢</div>
+                <h3>Material Icons</h3>
+                <p>Google's official icon set — 2,000+ icons for all platforms.</p>
+                <div class="tags"><span>Apache 2.0</span><span>Android</span><span>web</span><span>filled</span></div>
+                <a class="link" href="https://fonts.google.com/icons" target="_blank" rel="noopener">fonts.google.com/icons</a>
+            </div>
+
+            <div class="card reveal">
+                <div class="icon">🧡</div>
+                <h3>Heroicons</h3>
+                <p>Beautiful hand-crafted SVG icons by the Tailwind team.</p>
+                <div class="tags"><span>MIT</span><span>24×24</span><span>20×20</span><span>outline</span></div>
+                <a class="link" href="https://heroicons.com" target="_blank" rel="noopener">heroicons.com</a>
+            </div>
+
+            <div class="card reveal">
+                <div class="icon">🔴</div>
+                <h3>Ionicons</h3>
+                <p>Premium icons for iOS, Android &amp; web — 1,300+ open-source.</p>
+                <div class="tags"><span>MIT</span><span>mobile</span><span>web</span><span>iOS</span></div>
+                <a class="link" href="https://ionic.io/ionicons" target="_blank" rel="noopener">ionic.io/ionicons</a>
+            </div>
+
+            <div class="card reveal">
+                <div class="icon">🟡</div>
+                <h3>Tabler Icons</h3>
+                <p>Over 4,500 free SVG icons with a clean, consistent style.</p>
+                <div class="tags"><span>MIT</span><span>SVG</span><span>24×24</span><span>outline</span></div>
+                <a class="link" href="https://tabler.io/icons" target="_blank" rel="noopener">tabler.io/icons</a>
+            </div>
+
+            <div class="card reveal">
+                <div class="icon">🟤</div>
+                <h3>Phosphor Icons</h3>
+                <p>Flexible icon family — 6 styles, 1,000+ icons, open-source.</p>
+                <div class="tags"><span>MIT</span><span>SVG</span><span>React</span><span>6 styles</span></div>
+                <a class="link" href="https://phosphoricons.com" target="_blank" rel="noopener">phosphoricons.com</a>
+            </div>
+
+            <div class="card reveal">
+                <div class="icon">⚪</div>
+                <h3>Simple Icons</h3>
+                <p>SVG icons for popular brands &amp; services — 3,100+ free.</p>
+                <div class="tags"><span>CC0</span><span>brands</span><span>SVG</span><span>logo</span></div>
+                <a class="link" href="https://simpleicons.org" target="_blank" rel="noopener">simpleicons.org</a>
+            </div>
+
+            <div class="card reveal">
+                <div class="icon">🟣</div>
+                <h3>Lucide</h3>
+                <p>Beautiful &amp; consistent open-source icon toolkit. Fork of Feather.</p>
+                <div class="tags"><span>ISC</span><span>SVG</span><span>24×24</span><span>tree-shake</span></div>
+                <a class="link" href="https://lucide.dev" target="_blank" rel="noopener">lucide.dev</a>
+            </div>
+
+            <div class="card reveal">
+                <div class="icon">🔲</div>
+                <h3>Bootstrap Icons</h3>
+                <p>Free, high quality, open-source icon library with 2,000+ icons.</p>
+                <div class="tags"><span>MIT</span><span>SVG</span><span>web</span><span>font</span></div>
+                <a class="link" href="https://icons.getbootstrap.com" target="_blank" rel="noopener">icons.getbootstrap.com</a>
+            </div>
+
+            <div class="card reveal">
+                <div class="icon">🟦</div>
+                <h3>Fluent UI Icons</h3>
+                <p>Microsoft's official icon system — 4,000+ friendly, modern icons.</p>
+                <div class="tags"><span>MIT</span><span>Windows</span><span>SVG</span><span>filled</span></div>
+                <a class="link" href="https://github.com/microsoft/fluentui-system-icons" target="_blank" rel="noopener">fluentui-system-icons</a>
+            </div>
+
+            <div class="card reveal">
+                <div class="icon">🎨</div>
+                <h3>Iconify</h3>
+                <p>Universal icon framework — 200,000+ icons from 150+ collections.</p>
+                <div class="tags"><span>Apache 2.0</span><span>all</span><span>framework</span><span>200k+</span></div>
+                <a class="link" href="https://iconify.design" target="_blank" rel="noopener">iconify.design</a>
+            </div>
+
+            <div class="no-results" id="noResults">😕 No icon sets match your search. Try another keyword!</div>
+        </div>
+
+        <!-- ═══ PLATFORM GUIDELINES ═══ -->
+        <h2 id="platforms" class="reveal">🖥️ Platform Guidelines <span class="badge">specs</span></h2>
+        <p class="lead reveal" style="margin-bottom:8px;">Everything you need to ship icons that look perfect on every operating system — formats, sizes, shapes, and safe zones at a glance.</p>
+        <div class="platform-grid">
+
+            <div class="platform-card reveal">
+                <div class="emoji">🍎</div>
+                <h4>macOS</h4>
+                <ul>
+                    <li><strong>Format:</strong> .icns, .png</li>
+                    <li><strong>Sizes:</strong> 16–1024px (multi-size)</li>
+                    <li><strong>Shape:</strong> Squircle (superellipse)</li>
+                    <li><strong>Safe Zone:</strong> 10% padding margin</li>
+                    <li><strong>Resolution:</strong> 72dpi standard</li>
+                    <li><strong>Grid:</strong> 512×512 design canvas</li>
+                </ul>
+                <div class="platform-note">💡 macOS auto-applies the squircle mask — design your icon on a square canvas and keep important content within the inner 80%.</div>
+            </div>
+
+            <div class="platform-card reveal">
+                <div class="emoji">🪟</div>
+                <h4>Windows</h4>
+                <ul>
+                    <li><strong>Format:</strong> .ico, .png</li>
+                    <li><strong>Sizes:</strong> 16, 32, 48, 256px</li>
+                    <li><strong>Shape:</strong> Square (no forced rounding)</li>
+                    <li><strong>Safe Zone:</strong> Fill entire canvas</li>
+                    <li><strong>Resolution:</strong> 96dpi</li>
+                    <li><strong>Color:</strong> Supports alpha transparency</li>
+                </ul>
+                <div class="platform-note">💡 Bundle all sizes into a single .ico file. Windows scales to the taskbar, Start menu, and Alt-Tab automatically.</div>
+            </div>
+
+            <div class="platform-card reveal">
+                <div class="emoji">🐧</div>
+                <h4>Linux</h4>
+                <ul>
+                    <li><strong>Format:</strong> .svg (preferred), .png</li>
+                    <li><strong>Sizes:</strong> 16–512px (scalable)</li>
+                    <li><strong>Shape:</strong> Theme-dependent</li>
+                    <li><strong>Safe Zone:</strong> Variable per theme</li>
+                    <li><strong>Resolution:</strong> 96dpi</li>
+                    <li><strong>Theme:</strong> hicolor is the fallback</li>
+                </ul>
+                <div class="platform-note">💡 Provide an SVG in <code>scalable/apps/</code> plus PNG fallbacks. Follow the Freedesktop icon naming spec for cross-DE support.</div>
+            </div>
+
+            <div class="platform-card reveal">
+                <div class="emoji">📱</div>
+                <h4>iOS</h4>
+                <ul>
+                    <li><strong>Format:</strong> .png (no transparency)</li>
+                    <li><strong>Sizes:</strong> 180×180 (iPhone), 1024 (App Store)</li>
+                    <li><strong>Shape:</strong> Squircle (iOS 7+)</li>
+                    <li><strong>Safe Zone:</strong> 20% margin</li>
+                    <li><strong>Resolution:</strong> @2x, @3x assets</li>
+                    <li><strong>Background:</strong> Solid, no alpha</li>
+                </ul>
+                <div class="platform-note">💡 Apple applies the rounded mask &amp; gloss automatically. Use a solid background fill — transparent areas render as black.</div>
+            </div>
+
+            <div class="platform-card reveal">
+                <div class="emoji">🤖</div>
+                <h4>Android</h4>
+                <ul>
+                    <li><strong>Format:</strong> .png, .xml (adaptive)</li>
+                    <li><strong>Sizes:</strong> 48–512px, adaptive 108dp</li>
+                    <li><strong>Shape:</strong> Adaptive (circle, squircle, etc.)</li>
+                    <li><strong>Safe Zone:</strong> 20% (adaptive inner)</li>
+                    <li><strong>Resolution:</strong> mdpi→xxxhdpi</li>
+                    <li><strong>Play Store:</strong> 512×512 icon</li>
+                </ul>
+                <div class="platform-note">💡 Adaptive icons split foreground &amp; background layers. Keep your logo inside the central 66% safe zone to survive any mask shape.</div>
+            </div>
+
+            <div class="platform-card reveal">
+                <div class="emoji">🌐</div>
+                <h4>Web / PWA</h4>
+                <ul>
+                    <li><strong>Format:</strong> .svg, .png, .webp</li>
+                    <li><strong>Sizes:</strong> 16 (favicon) – 512 (PWA)</li>
+                    <li><strong>Shape:</strong> Square or maskable</li>
+                    <li><strong>Safe Zone:</strong> 10% (maskable)</li>
+                    <li><strong>Resolution:</strong> 1x, 2x, 3x</li>
+                    <li><strong>Manifest:</strong> icons array</li>
+                </ul>
+                <div class="platform-note">💡 Declare a 512×512 maskable icon in your manifest so Android home screens crop safely. Include an SVG favicon for crisp rendering.</div>
+            </div>
+
+        </div>
+
+        <!-- ═══ SIZES & FORMATS ═══ -->
+        <h2 id="specs" class="reveal">📐 All Sizes &amp; Formats <span class="badge">reference</span></h2>
+
+        <div class="size-scale reveal">
+            <div class="size-item">
+                <div class="size-box" style="width:20px;height:20px;font-size:8px;">16</div>
+                <span class="size-label">Favicon</span>
+            </div>
+            <div class="size-item">
+                <div class="size-box" style="width:28px;height:28px;font-size:8px;">24</div>
+                <span class="size-label">Toolbar</span>
+            </div>
+            <div class="size-item">
+                <div class="size-box" style="width:40px;height:40px;font-size:10px;">32</div>
+                <span class="size-label">Taskbar</span>
+            </div>
+            <div class="size-item">
+                <div class="size-box" style="width:56px;height:56px;font-size:12px;">48</div>
+                <span class="size-label">Desktop</span>
+            </div>
+            <div class="size-item">
+                <div class="size-box" style="width:80px;height:80px;font-size:14px;">64</div>
+                <span class="size-label">Thumbnail</span>
+            </div>
+            <div class="size-item">
+                <div class="size-box" style="width:120px;height:120px;font-size:18px;">128</div>
+                <span class="size-label">Preview</span>
+            </div>
+            <div class="size-item">
+                <div class="size-box" style="width:200px;height:200px;font-size:24px;">256</div>
+                <span class="size-label">High-Res</span>
+            </div>
+            <div class="size-item">
+                <div class="size-box" style="width:280px;height:280px;font-size:32px;">512</div>
+                <span class="size-label">Retina</span>
+            </div>
+            <div class="size-item">
+                <div class="size-box" style="width:360px;height:360px;font-size:38px;">1024</div>
+                <span class="size-label">App Store</span>
+            </div>
+        </div>
+
+        <div class="spec-grid">
+            <div class="spec-card reveal">
+                <div class="spec-icon">📄</div>
+                <h4>SVG</h4>
+                <ul>
+                    <li><strong>Type:</strong> Vector</li>
+                    <li><strong>Best For:</strong> Web, Linux, Adaptive</li>
+                    <li><strong>Pros:</strong> Scalable, tiny size, editable</li>
+                    <li><strong>Cons:</strong> Complex icons can bloat</li>
+                </ul>
+            </div>
+            <div class="spec-card reveal">
+                <div class="spec-icon">🖼️</div>
+                <h4>PNG</h4>
+                <ul>
+                    <li><strong>Type:</strong> Raster</li>
+                    <li><strong>Best For:</strong> iOS, Android, Web</li>
+                    <li><strong>Pros:</strong> Lossless, alpha transparency</li>
+                    <li><strong>Cons:</strong> No scaling without quality loss</li>
+                </ul>
+            </div>
+            <div class="spec-card reveal">
+                <div class="spec-icon">🪟</div>
+                <h4>ICO</h4>
+                <ul>
+                    <li><strong>Type:</strong> Raster container</li>
+                    <li><strong>Best For:</strong> Windows</li>
+                    <li><strong>Pros:</strong> Multi-size in one file</li>
+                    <li><strong>Cons:</strong> Limited tool support</li>
+                </ul>
+            </div>
+            <div class="spec-card reveal">
+                <div class="spec-icon">🍎</div>
+                <h4>ICNS</h4>
+                <ul>
+                    <li><strong>Type:</strong> Raster container</li>
+                    <li><strong>Best For:</strong> macOS</li>
+                    <li><strong>Pros:</strong> Multi-size, Retina-ready</li>
+                    <li><strong>Cons:</strong> Apple-ecosystem only</li>
+                </ul>
+            </div>
+            <div class="spec-card reveal">
+                <div class="spec-icon">🌐</div>
+                <h4>WEBP</h4>
+                <ul>
+                    <li><strong>Type:</strong> Raster</li>
+                    <li><strong>Best For:</strong> Web, PWA</li>
+                    <li><strong>Pros:</strong> Smaller than PNG, supports alpha</li>
+                    <li><strong>Cons:</strong> Not supported on very old browsers</li>
+                </ul>
+            </div>
+            <div class="spec-card reveal">
+                <div class="spec-icon">💾</div>
+                <h4>BMP / XPM</h4>
+                <ul>
+                    <li><strong>Type:</strong> Raster</li>
+                    <li><strong>Best For:</strong> Legacy, Linux cursors</li>
+                    <li><strong>Pros:</strong> Simple, universally readable</li>
+                    <li><strong>Cons:</strong> Large files, no compression</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- ═══ FORMAT-SPECIFIC NUANCES (NEW) ═══ -->
+        <h3 class="reveal" style="margin-top:32px;">🧩 Pro SVG Techniques</h3>
+        <div class="nuance-grid">
+            <div class="nuance-card reveal">
+                <h4>🎨 currentColor for theming</h4>
+                <p>Use <code>currentColor</code> so icons inherit text color — perfect for dark/light themes without duplicate assets.</p>
+                <div class="code-block"><span class="tag">&lt;svg</span> <span class="attr">fill</span>=<span class="val">"currentColor"</span><span class="tag">&gt;</span>
+  <span class="tag">&lt;path</span> <span class="attr">d</span>=<span class="val">"..."</span> <span class="tag">/&gt;</span>
+<span class="tag">&lt;/svg&gt;</span></div>
+            </div>
+            <div class="nuance-card reveal">
+                <h4>📐 viewBox &amp; consistent stroke</h4>
+                <p>Lock the <code>viewBox</code> to 24×24 and keep <code>stroke-width</code> uniform (1.5–2px) across a set for visual harmony.</p>
+                <div class="code-block"><span class="tag">&lt;svg</span> <span class="attr">viewBox</span>=<span class="val">"0 0 24 24"</span>
+  <span class="attr">stroke</span>=<span class="val">"currentColor"</span>
+  <span class="attr">stroke-width</span>=<span class="val">"2"</span><span class="tag">&gt;</span></div>
+            </div>
+            <div class="nuance-card reveal">
+                <h4>⚡ Optimize with SVGO</h4>
+                <p>Strip metadata, round paths, and collapse groups. Run SVGOMG before shipping to cut file size by 30–60%.</p>
+                <div class="code-block"><span class="comment"># CLI</span>
+npx svgo input.svg -o output.svg
+<span class="comment"># or use svgomg.net</span></div>
+            </div>
+        </div>
+
+        <!-- ═══ COLOR PALETTES ═══ -->
+        <h2 id="colors" class="reveal">🎨 Color Palettes <span class="badge">inspiration</span></h2>
+        <p class="lead reveal" style="margin-bottom:8px;">Click any swatch to copy its hex code. Six curated palettes to jumpstart your next icon design.</p>
+        <div class="palette-grid">
+
+            <div class="palette-card reveal">
+                <div class="palette-swatches">
+                    <span class="swatch" style="background:#ff6b6b;" data-hex="#ff6b6b"><span class="hex-tooltip">#ff6b6b</span></span>
+                    <span class="swatch" style="background:#ff9f43;" data-hex="#ff9f43"><span class="hex-tooltip">#ff9f43</span></span>
+                    <span class="swatch" style="background:#feca57;" data-hex="#feca57"><span class="hex-tooltip">#feca57</span></span>
+                    <span class="swatch" style="background:#ff9ff3;" data-hex="#ff9ff3"><span class="hex-tooltip">#ff9ff3</span></span>
+                </div>
+                <h4>Sunset Glow</h4>
+                <p>Warm, energetic, friendly.</p>
+            </div>
+
+            <div class="palette-card reveal">
+                <div class="palette-swatches">
+                    <span class="swatch" style="background:#54a0ff;" data-hex="#54a0ff"><span class="hex-tooltip">#54a0ff</span></span>
+                    <span class="swatch" style="background:#5f27cd;" data-hex="#5f27cd"><span class="hex-tooltip">#5f27cd</span></span>
+                    <span class="swatch" style="background:#1dd1a1;" data-hex="#1dd1a1"><span class="hex-tooltip">#1dd1a1</span></span>
+                    <span class="swatch" style="background:#00d2d3;" data-hex="#00d2d3"><span class="hex-tooltip">#00d2d3</span></span>
+                </div>
+                <h4>Ocean Breeze</h4>
+                <p>Cool, trust, modern.</p>
+            </div>
+
+            <div class="palette-card reveal">
+                <div class="palette-swatches">
+                    <span class="swatch" style="background:#2ed573;" data-hex="#2ed573"><span class="hex-tooltip">#2ed573</span></span>
+                    <span class="swatch" style="background:#7bed9f;" data-hex="#7bed9f"><span class="hex-tooltip">#7bed9f</span></span>
+                    <span class="swatch" style="background:#ffa502;" data-hex="#ffa502"><span class="hex-tooltip">#ffa502</span></span>
+                    <span class="swatch" style="background:#eccc68;" data-hex="#eccc68"><span class="hex-tooltip">#eccc68</span></span>
+                </div>
+                <h4>Fresh Nature</h4>
+                <p>Eco, growth, organic.</p>
+            </div>
+
+            <div class="palette-card reveal">
+                <div class="palette-swatches">
+                    <span class="swatch" style="background:#57606f;" data-hex="#57606f"><span class="hex-tooltip">#57606f</span></span>
+                    <span class="swatch" style="background:#747d8c;" data-hex="#747d8c"><span class="hex-tooltip">#747d8c</span></span>
+                    <span class="swatch" style="background:#dfe4ea;" data-hex="#dfe4ea"><span class="hex-tooltip">#dfe4ea</span></span>
+                    <span class="swatch" style="background:#f1f2f6;" data-hex="#f1f2f6"><span class="hex-tooltip">#f1f2f6</span></span>
+                </div>
+                <h4>Minimalist Gray</h4>
+                <p>Clean, elegant, timeless.</p>
+            </div>
+
+            <div class="palette-card reveal">
+                <div class="palette-swatches">
+                    <span class="swatch" style="background:#e056fd;" data-hex="#e056fd"><span class="hex-tooltip">#e056fd</span></span>
+                    <span class="swatch" style="background:#be2edd;" data-hex="#be2edd"><span class="hex-tooltip">#be2edd</span></span>
+                    <span class="swatch" style="background:#7d5fff;" data-hex="#7d5fff"><span class="hex-tooltip">#7d5fff</span></span>
+                    <span class="swatch" style="background:#7158e2;" data-hex="#7158e2"><span class="hex-tooltip">#7158e2</span></span>
+                </div>
+                <h4>Deep Space</h4>
+                <p>Futuristic, creative, bold.</p>
+            </div>
+
+            <div class="palette-card reveal">
+                <div class="palette-swatches">
+                    <span class="swatch" style="background:#ff4757;" data-hex="#ff4757"><span class="hex-tooltip">#ff4757</span></span>
+                    <span class="swatch" style="background:#ff6b81;" data-hex="#ff6b81"><span class="hex-tooltip">#ff6b81</span></span>
+                    <span class="swatch" style="background:#ff7979;" data-hex="#ff7979"><span class="hex-tooltip">#ff7979</span></span>
+                    <span class="swatch" style="background:#f8a5c2;" data-hex="#f8a5c2"><span class="hex-tooltip">#f8a5c2</span></span>
+                </div>
+                <h4>Passion Fruit</h4>
+                <p>Bold, lively, dynamic.</p>
+            </div>
+
+        </div>
+
+        <!-- ═══ TOOLS & GENERATORS ═══ -->
+        <h2 id="tools" class="reveal">🛠️ Tools &amp; Generators <span class="badge">free</span></h2>
+        <div class="tools-grid">
+
+            <div class="tool-card reveal">
+                <div class="emoji">🧩</div>
+                <h4>IconKitchen</h4>
+                <p>Generate app icons for all platforms in one click.</p>
+                <a href="https://icon.kitchen" target="_blank" rel="noopener">icon.kitchen →</a>
+            </div>
+            <div class="tool-card reveal">
+                <div class="emoji">📐</div>
+                <h4>AppIcon.co</h4>
+                <p>Create iOS, Android &amp; web icons fast.</p>
+                <a href="https://appicon.co" target="_blank" rel="noopener">appicon.co →</a>
+            </div>
+            <div class="tool-card reveal">
+                <div class="emoji">🖌️</div>
+                <h4>Favicon.io</h4>
+                <p>Text-to-favicon &amp; icon generator.</p>
+                <a href="https://favicon.io" target="_blank" rel="noopener">favicon.io →</a>
+            </div>
+            <div class="tool-card reveal">
+                <div class="emoji">🎨</div>
+                <h4>Iconscout</h4>
+                <p>Millions of icons, illustrations &amp; 3D assets.</p>
+                <a href="https://iconscout.com" target="_blank" rel="noopener">iconscout.com →</a>
+            </div>
+            <div class="tool-card reveal">
+                <div class="emoji">⚡</div>
+                <h4>SVGOMG</h4>
+                <p>Optimize SVG icons for production.</p>
+                <a href="https://svgomg.net" target="_blank" rel="noopener">svgomg.net →</a>
+            </div>
+            <div class="tool-card reveal">
+                <div class="emoji">🔄</div>
+                <h4>Convertio</h4>
+                <p>Convert between .ico, .png, .icns &amp; more.</p>
+                <a href="https://convertio.co/icon-converter" target="_blank" rel="noopener">convertio.co →</a>
+            </div>
+            <div class="tool-card reveal">
+                <div class="emoji">🤖</div>
+                <h4>RealFaviconGenerator</h4>
+                <p>Generate every favicon variant for all browsers.</p>
+                <a href="https://realfavicongenerator.net" target="_blank" rel="noopener">realfavicongenerator.net →</a>
+            </div>
+            <div class="tool-card reveal">
+                <div class="emoji">🔆</div>
+                <h4>Svg2Ico</h4>
+                <p>Convert SVG directly into multi-size .ico files.</p>
+                <a href="https://svgtoico.com" target="_blank" rel="noopener">svgtoico.com →</a>
+            </div>
+        </div>
+
+        <!-- ═══ DESIGN PRINCIPLES ═══ -->
+        <h2 id="principles" class="reveal">🎯 Design Principles <span class="badge">best practices</span></h2>
+        <div class="principles">
+            <div class="principle reveal"><h4>🔍 Clarity</h4><p>Your icon must be legible at 16×16. Every pixel counts.</p></div>
+            <div class="principle reveal"><h4>⚖️ Consistency</h4><p>Keep stroke weights, corners, and visual balance uniform.</p></div>
+            <div class="principle reveal"><h4>🎨 Metaphor</h4><p>Use familiar symbols — users shouldn't decode abstract shapes.</p></div>
+            <div class="principle reveal"><h4>📐 Grid</h4><p>Design on a pixel grid (e.g., 24×24) to avoid fuzzy edges.</p></div>
+            <div class="principle reveal"><h4>🌈 Color</h4><p>Limit palette. Use contrast for accessibility. Test on dark/light.</p></div>
+            <div class="principle reveal"><h4>🧩 Scalability</h4><p>Start with a vector (SVG) then export to all raster sizes.</p></div>
+        </div>
+
+        <!-- ═══ ACCESSIBILITY (NEW) ═══ -->
+        <h2 id="a11y" class="reveal">♿ Accessibility &amp; Optimization <span class="badge">a11y</span></h2>
+        <p class="lead reveal" style="margin-bottom:8px;">Icons that everyone can use — and that load fast. Essential best practices for inclusive, performant icon systems.</p>
+        <div class="best-grid">
+            <div class="best-card reveal">
+                <h4>🔇 Decorative icons</h4>
+                <p>Hide from screen readers with <code>aria-hidden="true"</code>. If it's purely visual, don't announce it.</p>
+            </div>
+            <div class="best-card reveal">
+                <h4>📢 Meaningful icons</h4>
+                <p>Provide an <code>aria-label</code> or visible text label when the icon conveys action (e.g., a lone close button).</p>
+            </div>
+            <div class="best-card reveal">
+                <h4>📏 Touch targets</h4>
+                <p>Keep clickable icon hit areas at least 44×44px (WCAG 2.5.5). The visual can be smaller; the target shouldn't.</p>
+            </div>
+            <div class="best-card reveal">
+                <h4>🌗 Contrast</h4>
+                <p>Maintain a 3:1 ratio for graphical objects (WCAG 1.4.11). Test icons against both light and dark surfaces.</p>
+            </div>
+            <div class="best-card reveal">
+                <h4>🌲 Tree-shaking</h4>
+                <p>Import only the icons you use (<code>react-icons</code>, Lucide) so bundlers drop the rest. Don't ship 4,000 icons.</p>
+            </div>
+            <div class="best-card reveal">
+                <h4>📦 Bundle size</h4>
+                <p>Inline critical SVGs, lazy-load the rest. Optimize with SVGO and prefer <code>&lt;symbol&gt;</code> sprites for repeats.</p>
+            </div>
+            <div class="best-card reveal">
+                <h4>⌨️ Focus states</h4>
+                <p>Icon-only buttons need a visible focus ring. Never rely on color alone to show state.</p>
+            </div>
+            <div class="best-card reveal">
+                <h4>🕊️ Reduced motion</h4>
+                <p>Respect <code>prefers-reduced-motion</code> — disable spinning/pulsing icon animations for sensitive users.</p>
+            </div>
+        </div>
+
+        <!-- ═══ FRAMEWORK INTEGRATION (NEW) ═══ -->
+        <h2 class="reveal">⚛️ Framework Integration <span class="badge">code</span></h2>
+        <p class="lead reveal" style="margin-bottom:8px;">Bridge the gap between finding an icon and using it in your stack.</p>
+        <div class="framework-grid">
+            <div class="framework-card reveal">
+                <h4>⚛️ react-icons</h4>
+                <p>Bundles Font Awesome, Material, Feather, Ionicons &amp; more as React components. Tree-shakeable.</p>
+                <p><code>npm i react-icons</code></p>
+            </div>
+            <div class="framework-card reveal">
+                <h4>💚 vue-awesome / unplugin-icons</h4>
+                <p>On-demand SVG icons as Vue components. Works with Vite &amp; webpack.</p>
+                <p><code>npm i unplugin-icons</code></p>
+            </div>
+            <div class="framework-card reveal">
+                <h4>🔥 svelte-icons / lucide-svelte</h4>
+                <p>Lightweight SVG icon components for SvelteKit. Zero runtime overhead.</p>
+                <p><code>npm i lucide-svelte</code></p>
+            </div>
+            <div class="framework-card reveal">
+                <h4>🅰️ @ng-icons</h4>
+                <p>50,000+ icons as Angular components with SSR support.</p>
+                <p><code>npm i @ng-icons/core</code></p>
+            </div>
+            <div class="framework-card reveal">
+                <h4>📦 Iconify</h4>
+                <p>Universal — works in React, Vue, Svelte, Angular, web components. 200k+ icons on demand.</p>
+                <p><code>npm i @iconify/react</code></p>
+            </div>
+            <div class="framework-card reveal">
+                <h4>🍃 Tailwind CSS</h4>
+                <p>Use Heroicons via <code>@heroicons/react</code> or inline SVGs styled with utility classes.</p>
+                <p><code>npm i @heroicons/react</code></p>
+            </div>
+        </div>
+
+        <!-- ═══ LICENSING MATRIX (NEW) ═══ -->
+        <h2 id="licenses" class="reveal">⚖️ Licensing Matrix <span class="badge">legal</span></h2>
+        <p class="lead reveal" style="margin-bottom:8px;">Pick the right icon set for your project's license. Commercial use, attribution, and copyleft at a glance.</p>
+        <div class="license-table-wrap reveal">
+            <table class="license-table">
+                <thead>
+                    <tr>
+                        <th>License</th>
+                        <th>Commercial Use</th>
+                        <th>Attribution Required</th>
+                        <th>Copyleft / Share-Alike</th>
+                        <th>Typical Use</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="lic-badge lic-mit">MIT</span></td>
+                        <td><span class="lic-yes">✓ Yes</span></td>
+                        <td><span class="lic-no">✗ No</span></td>
+                        <td><span class="lic-no">✗ No</span></td>
+                        <td>Most permissive — Feather, Heroicons, Tabler</td>
+                    </tr>
+                    <tr>
+                        <td><span class="lic-badge lic-apache">Apache 2.0</span></td>
+                        <td><span class="lic-yes">✓ Yes</span></td>
+                        <td><span class="lic-cond">~ Notice</span></td>
+                        <td><span class="lic-no">✗ No</span></td>
+                        <td>Material Icons, Iconify — includes patent grant</td>
+                    </tr>
+                    <tr>
+                        <td><span class="lic-badge lic-cc0">CC0 / CC-BY</span></td>
+                        <td><span class="lic-yes">✓ Yes</span></td>
+                        <td><span class="lic-cond">~ CC-BY yes</span></td>
+                        <td><span class="lic-no">✗ No</span></td>
+                        <td>Public domain (Simple Icons CC0) — no restrictions</td>
+                    </tr>
+                    <tr>
+                        <td><span class="lic-badge lic-gpl">GPL</span></td>
+                        <td><span class="lic-cond">~ Conditional</span></td>
+                        <td><span class="lic-yes">✓ Yes</span></td>
+                        <td><span class="lic-yes">✓ Yes</span></td>
+                        <td>Your project must also be GPL — rarely used for icons</td>
+                    </tr>
+                    <tr>
+                        <td><span class="lic-badge lic-com">Commercial</span></td>
+                        <td><span class="lic-cond">~ Paid only</span></td>
+                        <td><span class="lic-cond">~ Varies</span></td>
+                        <td><span class="lic-no">✗ No</span></td>
+                        <td>Paid packs (Iconscout Pro, Font Awesome Pro)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- ═══ ICON SHOWCASE ═══ -->
+        <h2 id="showcase" class="reveal">🌟 Icon Showcase <span class="badge">inspiration</span></h2>
+
+        <!-- Dark/Light preview toggle -->
+        <div class="preview-area reveal" id="previewArea">
+            <div class="preview-controls">
+                <span class="label">🖼️ Preview your icons on different surfaces</span>
+                <button class="preview-toggle-btn" id="previewToggle">☀️ Light Surface</button>
+            </div>
+            <div class="preview-icons">
+                <div class="pi"><span class="ico">📁</span><span class="nm">Folder</span></div>
+                <div class="pi"><span class="ico">⚙️</span><span class="nm">Settings</span></div>
+                <div class="pi"><span class="ico">💾</span><span class="nm">Save</span></div>
+                <div class="pi"><span class="ico">🔒</span><span class="nm">Lock</span></div>
+                <div class="pi"><span class="ico">📤</span><span class="nm">Share</span></div>
+                <div class="pi"><span class="ico">🎵</span><span class="nm">Music</span></div>
+                <div class="pi"><span class="ico">📷</span><span class="nm">Camera</span></div>
+                <div class="pi"><span class="ico">💬</span><span class="nm">Chat</span></div>
+            </div>
+        </div>
+
+        <div class="gallery" style="margin-top:24px;">
+            <div class="gallery-item reveal"><div class="gi-icon">📁</div><div class="gi-label">Folder</div></div>
+            <div class="gallery-item reveal"><div class="gi-icon">⚙️</div><div class="gi-label">Settings</div></div>
+            <div class="gallery-item reveal"><div class="gi-icon">💾</div><div class="gi-label">Save</div></div>
+            <div class="gallery-item reveal"><div class="gi-icon">🗑️</div><div class="gi-label">Trash</div></div>
+            <div class="gallery-item reveal"><div class="gi-icon">📤</div><div class="gi-label">Share</div></div>
+            <div class="gallery-item reveal"><div class="gi-icon">🔒</div><div class="gi-label">Security</div></div>
+            <div class="gallery-item reveal"><div class="gi-icon">🎵</div><div class="gi-label">Music</div></div>
+            <div class="gallery-item reveal"><div class="gi-icon">📷</div><div class="gi-label">Camera</div></div>
+            <div class="gallery-item reveal"><div class="gi-icon">🕹️</div><div class="gi-label">Games</div></div>
+            <div class="gallery-item reveal"><div class="gi-icon">✏️</div><div class="gi-label">Edit</div></div>
+            <div class="gallery-item reveal"><div class="gi-icon">💬</div><div class="gi-label">Chat</div></div>
+            <div class="gallery-item reveal"><div class="gi-icon">📊</div><div class="gi-label">Analytics</div></div>
+
+            <div class="gallery-item reveal"><div class="app-icon" style="background: linear-gradient(135deg, #FF512F, #DD2475);">📱</div><div class="gi-label">Chat App</div></div>
+            <div class="gallery-item reveal"><div class="app-icon" style="background: linear-gradient(135deg, #1CD8D2, #93EDC7);">🎧</div><div class="gi-label">Music</div></div>
+            <div class="gallery-item reveal"><div class="app-icon" style="background: linear-gradient(135deg, #FFED4A, #FCCF31);">📷</div><div class="gi-label">Camera</div></div>
+            <div class="gallery-item reveal"><div class="app-icon" style="background: linear-gradient(135deg, #FF6B6B, #EE5A24);">🔥</div><div class="gi-label">Trending</div></div>
+            <div class="gallery-item reveal"><div class="app-icon" style="background: linear-gradient(135deg, #48DBFB, #4A90E2);">🌐</div><div class="gi-label">Browser</div></div>
+            <div class="gallery-item reveal"><div class="app-icon" style="background: linear-gradient(135deg, #F5576C, #F093FB);">💪</div><div class="gi-label">Fitness</div></div>
+            <div class="gallery-item reveal"><div class="app-icon" style="background: linear-gradient(135deg, #4FACFE, #00F2FE);">☁️</div><div class="gi-label">Weather</div></div>
+            <div class="gallery-item reveal"><div class="app-icon" style="background: linear-gradient(135deg, #43E97B, #38F9D7);">🧘</div><div class="gi-label">Meditate</div></div>
+            <div class="gallery-item reveal"><div class="app-icon" style="background: linear-gradient(135deg, #FA709A, #FEE140);">⭐</div><div class="gi-label">Star</div></div>
+            <div class="gallery-item reveal"><div class="app-icon" style="background: linear-gradient(135deg, #A18CD1, #FBC2EB);">🎮</div><div class="gi-label">Arcade</div></div>
+            <div class="gallery-item reveal"><div class="app-icon" style="background: linear-gradient(135deg, #F2994A, #F2C94A);">🛒</div><div class="gi-label">Cart</div></div>
+            <div class="gallery-item reveal"><div class="app-icon" style="background: linear-gradient(135deg, #56AB2F, #A8E063);">🌿</div><div class="gi-label">Eco</div></div>
+        </div>
+
+        <!-- ═══ COMMUNITY (NEW) ═══ -->
+        <h2 id="community" class="reveal">🧑‍🤝‍🧑 Community &amp; Contribute <span class="badge">open source</span></h2>
+        <p class="lead reveal" style="margin-bottom:8px;">Iconverse is an open, living project. Help us grow the ultimate icon reference for everyone.</p>
+        <div class="community-grid">
+            <div class="community-card reveal">
+                <div class="emoji">🍴</div>
+                <h4>Fork &amp; Contribute</h4>
+                <p>Add a new icon set, fix a broken link, or improve the guidelines. PRs welcome!</p>
+                <a href="#" class="btn" target="_blank" rel="noopener">📂 View on GitHub</a>
+            </div>
+            <div class="community-card reveal">
+                <div class="emoji">🪧</div>
+                <h4>Request an Icon</h4>
+                <p>Missing a brand or style? Open an issue and the community will help source it.</p>
+                <a href="#" class="btn secondary" target="_blank" rel="noopener">🎫 Open a Request</a>
+            </div>
+            <div class="community-card reveal">
+                <div class="emoji">📖</div>
+                <h4>Contributing Guide</h4>
+                <p>Read the CONTRIBUTING.md for coding standards, structure, and submission tips.</p>
+                <a href="#" class="btn secondary" target="_blank" rel="noopener">📘 Read the Guide</a>
+            </div>
+            <div class="community-card reveal">
+                <div class="emoji">💬</div>
+                <h4>Join the Discord</h4>
+                <p>Chat with fellow icon obsessives, get feedback, and share your latest designs.</p>
+                <a href="#" class="btn secondary" target="_blank" rel="noopener">🚀 Join Discord</a>
+            </div>
+        </div>
+
+        <!-- ═══ QUICK REFERENCE ═══ -->
+        <h2 class="reveal">📋 Quick Reference <span class="badge">cheatsheet</span></h2>
+        <div class="ref-grid">
+            <div class="ref-card reveal">
+                <div class="ref-title">📐 Standard Sizes</div>
+                <ul>
+                    <li>• 16×16 — favicon / status bar</li>
+                    <li>• 24×24 — toolbar / navigation</li>
+                    <li>• 32×32 — taskbar / system tray</li>
+                    <li>• 48×48 — desktop shortcut</li>
+                    <li>• 64×64 — thumbnail / preview</li>
+                    <li>• 128×128 — file preview</li>
+                    <li>• 256×256 — Windows app icon</li>
+                    <li>• 512×512 — macOS / Android</li>
+                    <li>• 1024×1024 — App Store / Play</li>
+                </ul>
+            </div>
+            <div class="ref-card reveal">
+                <div class="ref-title">🧩 File Formats</div>
+                <ul>
+                    <li>• .svg — vector (scalable, editable)</li>
+                    <li>• .png — raster (transparent, lossless)</li>
+                    <li>• .ico — Windows multi-size container</li>
+                    <li>• .icns — macOS icon set</li>
+                    <li>• .webp — modern web (small + alpha)</li>
+                    <li>• .bmp — legacy raster</li>
+                    <li>• .xpm — X Window System</li>
+                    <li>• .gif — animated (rare for icons)</li>
+                </ul>
+            </div>
+            <div class="ref-card reveal">
+                <div class="ref-title">🎨 Color Psychology</div>
+                <ul>
+                    <li>🔵 Blue — trust, calm, tech</li>
+                    <li>🟢 Green — growth, nature, go</li>
+                    <li>🔴 Red — urgency, passion, stop</li>
+                    <li>🟡 Yellow — optimism, warning, energy</li>
+                    <li>🟣 Purple — luxury, creativity, mystery</li>
+                    <li>🟠 Orange — enthusiasm, friendly</li>
+                    <li>⚫ Black — power, elegance, premium</li>
+                    <li>⚪ White — purity, simplicity, clean</li>
+                </ul>
+            </div>
+            <div class="ref-card reveal">
+                <div class="ref-title">📐 DPI Buckets (Android)</div>
+                <ul>
+                    <li>• mdpi — 1× (160dpi)</li>
+                    <li>• hdpi — 1.5× (240dpi)</li>
+                    <li>• xhdpi — 2× (320dpi)</li>
+                    <li>• xxhdpi — 3× (480dpi)</li>
+                    <li>• xxxhdpi — 4× (640dpi)</li>
+                </ul>
+            </div>
+            <div class="ref-card reveal">
+                <div class="ref-title">🍎 iOS Asset Scale</div>
+                <ul>
+                    <li>• @1x — base (legacy)</li>
+                    <li>• @2x — Retina (iPhone SE+)</li>
+                    <li>• @3x — Super Retina (Pro)</li>
+                    <li>• App Store — 1024×1024</li>
+                </ul>
+            </div>
+            <div class="ref-card reveal">
+                <div class="ref-title">♿ A11y Quick Checks</div>
+                <ul>
+                    <li>• Decorative → aria-hidden</li>
+                    <li>• Meaningful → aria-label</li>
+                    <li>• Contrast ≥ 3:1 (graphics)</li>
+                    <li>• Touch target ≥ 44×44px</li>
+                    <li>• Respect reduced-motion</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- ═══ FOOTER ═══ -->
+        <footer class="footer">
+            <div><span style="font-weight:700;">🎯 Iconverse</span> — built with ❤️ for the icon-obsessed.</div>
+            <div class="socials">
+                <a href="#" target="_blank" rel="noopener">GitHub</a>
+                <a href="#" target="_blank" rel="noopener">Twitter</a>
+                <a href="#" target="_blank" rel="noopener">Discord</a>
+                <a href="#" target="_blank" rel="noopener">RSS</a>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Back to top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
