@@ -1,6 +1,5 @@
-<div align="center">
-  <img src="https://img.icons8.com/fluency/96/000000/globe--v1.png" alt="FED-OS Logo" width="100" height="100">
-  <h1>🖥️ FED-ICON</h1>
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W3T61ZU5FS)
+  
   <p><strong>Create Desktop Icons for FED-OS</strong></p>
   <p>
     <a href="#-features">Features</a> •
